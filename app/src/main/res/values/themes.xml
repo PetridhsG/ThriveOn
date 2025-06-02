@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main app theme -->
+    <style name="Theme.ThriveOn" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Splash screen theme 2C0A0A 5A1A1A-->
+    <style name="Theme.ThriveOn.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#2C0A0A</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenIconBackgroundColor">#2C0A0A</item>
+        <item name="postSplashScreenTheme">@style/Theme.ThriveOn</item>
+    </style>
+</resources>
